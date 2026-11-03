@@ -1,0 +1,18 @@
+{
+  "type": "Feature",
+  "properties": {
+    "note": "Practice polygon only (not a real NWS warning). Roughly west Houston / Katy area.",
+    "event": "Flash Flood Warning"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[
+      [-95.80, 29.70],
+      [-95.55, 29.70],
+      [-95.50, 29.82],
+      [-95.62, 29.90],
+      [-95.82, 29.86],
+      [-95.80, 29.70]
+    ]]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "Feature",
+  "properties": {"note": "Deliberately invalid: edges cross (self-intersection / bow-tie)."},
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[
+      [-95.70, 29.70],
+      [-95.50, 29.90],
+      [-95.50, 29.70],
+      [-95.70, 29.90],
+      [-95.70, 29.70]
+    ]]
+  }
+}

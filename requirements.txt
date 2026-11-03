@@ -1,0 +1,10 @@
+# Tested with Python 3.14 on Windows 11, and Python 3.12 on macOS 12 (Monterey).
+anthropic
+shapely>=2.0
+# macOS 12 needs pyproj 3.6.1 (newer builds require macOS 13+); Windows/Linux can use newer.
+pyproj==3.6.1; sys_platform == "darwin"
+pyproj>=3.6.1; sys_platform != "darwin"
+numpy
+python-dotenv
+# Week 2: small CPU-only embedding model (no PyTorch needed)
+model2vec
